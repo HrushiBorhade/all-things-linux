@@ -14,6 +14,7 @@
 | [**Networking Commands**](networking.md) | [`curl`](networking.md#curl) [`wget`](networking.md#wget) [`ssh`](networking.md#ssh) [`ping`](networking.md#ping) [`netstat`](networking.md#netstat) [`ifconfig`](networking.md#ifconfig) [`traceroute`](networking.md#traceroute) [`tracepath`](networking.md#tracepath) [`mtr`](networking.md#mtr) [`nslookup`](networking.md#nslookup) [`telnet`](networking.md#telnet) [`hostname`](networking.md#hostname) [`ip`](networking.md#ip) [`iwconfig`](networking.md#iwconfig) [`ss`](networking.md#ss) [`arp`](networking.md#arp) [`dig`](networking.md#dig) [`whois`](networking.md#whois) [`ifplugstatus`](networking.md#ifplugstatus) [`route`](networking.md#route) [`nmap`](networking.md#nmap) [`tcpdump`](networking.md#tcpdump) [`nc`](networking.md#nc) [`scp`](networking.md#scp) [`rsync`](networking.md#rsync) [`iptables`](networking.md#iptables) [`netcat`](networking.md#netcat) [`host`](networking.md#host) |
 | [**System Level Commands**](system.md) | [`uname`](system.md#uname) [`uptime`](system.md#uptime) [`date`](system.md#date) [`who`](system.md#who) [`whoami`](system.md#whoami) [`which`](system.md#which) [`id`](system.md#id) [`sudo`](system.md#sudo) [`shutdown`](system.md#shutdown) [`reboot`](system.md#reboot) [`apt`](system.md#apt) [`yum`](system.md#yum) [`dnf`](system.md#dnf) [`pacman`](system.md#pacman) [`portage`](system.md#portage) |
 | [**User & Group Management**](user-and-group-management.md) | [`sudo`](user-and-group-management.md#sudo) [`useradd`](user-and-group-management.md#useradd) [`whoami`](user-and-group-management.md#whoami) [`su`](user-and-group-management.md#su) [`passwd`](user-and-group-management.md#passwd) [`userdel`](user-and-group-management.md#userdel) [`groupadd`](user-and-group-management.md#groupadd) [`gpasswd`](user-and-group-management.md#gpasswd) [`groupdel`](user-and-group-management.md#groupdel) |
+| [**File Permissions**](file-permissions.md) | [`ls`](file-permissions.md#ls) [`chmod`](file-permissions.md#chmod) [`chown`](file-permissions.md#chown) [`chgrp`](file-permissions.md#chgrp) [`umask`](file-permissions.md#umask) |
 
 # Linux Commands
 
@@ -86,6 +87,17 @@
 | [`groupadd`](user-and-group-management.md#groupadd) | Create a new group |
 | [`gpasswd`](user-and-group-management.md#gpasswd) | Administer groups |
 | [`groupdel`](user-and-group-management.md#groupdel) | Delete a group |
+
+### File Permission Commands
+[View detailed file permissions guide](file-permissions.md)
+
+| Command | Description |
+|---------|-------------|
+| [`ls`](file-permissions.md#ls) | List directory contents with permissions |
+| [`chmod`](file-permissions.md#chmod) | Change file mode/permissions |
+| [`chown`](file-permissions.md#chown) | Change file owner and group |
+| [`chgrp`](file-permissions.md#chgrp) | Change group ownership |
+| [`umask`](file-permissions.md#umask) | Set default permissions mask |
 
 
 
