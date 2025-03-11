@@ -15,6 +15,7 @@
 | [**System Level Commands**](system.md) | [`uname`](system.md#uname) [`uptime`](system.md#uptime) [`date`](system.md#date) [`who`](system.md#who) [`whoami`](system.md#whoami) [`which`](system.md#which) [`id`](system.md#id) [`sudo`](system.md#sudo) [`shutdown`](system.md#shutdown) [`reboot`](system.md#reboot) [`apt`](system.md#apt) [`yum`](system.md#yum) [`dnf`](system.md#dnf) [`pacman`](system.md#pacman) [`portage`](system.md#portage) |
 | [**User & Group Management**](user-and-group-management.md) | [`sudo`](user-and-group-management.md#sudo) [`useradd`](user-and-group-management.md#useradd) [`whoami`](user-and-group-management.md#whoami) [`su`](user-and-group-management.md#su) [`passwd`](user-and-group-management.md#passwd) [`userdel`](user-and-group-management.md#userdel) [`groupadd`](user-and-group-management.md#groupadd) [`gpasswd`](user-and-group-management.md#gpasswd) [`groupdel`](user-and-group-management.md#groupdel) |
 | [**File Permissions**](file-permissions.md) | [`ls`](file-permissions.md#ls) [`chmod`](file-permissions.md#chmod) [`chown`](file-permissions.md#chown) [`chgrp`](file-permissions.md#chgrp) [`umask`](file-permissions.md#umask) |
+| [**Compression Commands**](compression.md) | [`zip`](compression.md#zip) [`gzip`](compression.md#gzip) [`gunzip`](compression.md#gunzip) [`tar`](compression.md#tar) [`untar`](compression.md#untar) |
 
 # Linux Commands
 
@@ -98,6 +99,17 @@
 | [`chown`](file-permissions.md#chown) | Change file owner and group |
 | [`chgrp`](file-permissions.md#chgrp) | Change group ownership |
 | [`umask`](file-permissions.md#umask) | Set default permissions mask |
+
+### Compression Commands
+[View detailed compression commands guide](compression.md)
+
+| Command | Description |
+|---------|-------------|
+| [`zip`](compression.md#zip) | Package and compress files |
+| [`gzip`](compression.md#gzip) | Compress files using Lempel-Ziv coding |
+| [`gunzip`](compression.md#gunzip) | Decompress files compressed with gzip |
+| [`tar`](compression.md#tar) | Tape archiving utility |
+| [`untar`](compression.md#untar) | Extract files from tar archive |
 
 
 
