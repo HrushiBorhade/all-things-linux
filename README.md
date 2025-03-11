@@ -16,6 +16,7 @@
 | [**User & Group Management**](user-and-group-management.md) | [`sudo`](user-and-group-management.md#sudo) [`useradd`](user-and-group-management.md#useradd) [`whoami`](user-and-group-management.md#whoami) [`su`](user-and-group-management.md#su) [`passwd`](user-and-group-management.md#passwd) [`userdel`](user-and-group-management.md#userdel) [`groupadd`](user-and-group-management.md#groupadd) [`gpasswd`](user-and-group-management.md#gpasswd) [`groupdel`](user-and-group-management.md#groupdel) |
 | [**File Permissions**](file-permissions.md) | [`ls`](file-permissions.md#ls) [`chmod`](file-permissions.md#chmod) [`chown`](file-permissions.md#chown) [`chgrp`](file-permissions.md#chgrp) [`umask`](file-permissions.md#umask) |
 | [**Compression Commands**](compression.md) | [`zip`](compression.md#zip) [`gzip`](compression.md#gzip) [`gunzip`](compression.md#gunzip) [`tar`](compression.md#tar) [`untar`](compression.md#untar) |
+| [**Pro Linux Commands**](pro-linux-commands.md) | [`awk`](pro-linux-commands.md#awk) [`sed`](pro-linux-commands.md#sed) [`grep`](pro-linux-commands.md#grep) |
 
 # Linux Commands
 
@@ -110,6 +111,15 @@
 | [`gunzip`](compression.md#gunzip) | Decompress files compressed with gzip |
 | [`tar`](compression.md#tar) | Tape archiving utility |
 | [`untar`](compression.md#untar) | Extract files from tar archive |
+
+### Pro Linux Commands
+[View detailed pro Linux commands guide](pro-linux-commands.md)
+
+| Command | Description |
+|---------|-------------|
+| [`awk`](pro-linux-commands.md#awk) | Pattern scanning and text processing language |
+| [`sed`](pro-linux-commands.md#sed) | Stream editor for filtering and transforming text |
+| [`grep`](pro-linux-commands.md#grep) | Search text patterns using regular expressions |
 
 
 
