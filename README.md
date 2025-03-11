@@ -13,6 +13,7 @@
 |----------|----------|
 | [**Networking Commands**](networking.md) | [`curl`](networking.md#curl) [`wget`](networking.md#wget) [`ssh`](networking.md#ssh) [`ping`](networking.md#ping) [`netstat`](networking.md#netstat) [`ifconfig`](networking.md#ifconfig) [`traceroute`](networking.md#traceroute) [`tracepath`](networking.md#tracepath) [`mtr`](networking.md#mtr) [`nslookup`](networking.md#nslookup) [`telnet`](networking.md#telnet) [`hostname`](networking.md#hostname) [`ip`](networking.md#ip) [`iwconfig`](networking.md#iwconfig) [`ss`](networking.md#ss) [`arp`](networking.md#arp) [`dig`](networking.md#dig) [`whois`](networking.md#whois) [`ifplugstatus`](networking.md#ifplugstatus) [`route`](networking.md#route) [`nmap`](networking.md#nmap) [`tcpdump`](networking.md#tcpdump) [`nc`](networking.md#nc) [`scp`](networking.md#scp) [`rsync`](networking.md#rsync) [`iptables`](networking.md#iptables) [`netcat`](networking.md#netcat) [`host`](networking.md#host) |
 | [**System Level Commands**](system.md) | [`uname`](system.md#uname) [`uptime`](system.md#uptime) [`date`](system.md#date) [`who`](system.md#who) [`whoami`](system.md#whoami) [`which`](system.md#which) [`id`](system.md#id) [`sudo`](system.md#sudo) [`shutdown`](system.md#shutdown) [`reboot`](system.md#reboot) [`apt`](system.md#apt) [`yum`](system.md#yum) [`dnf`](system.md#dnf) [`pacman`](system.md#pacman) [`portage`](system.md#portage) |
+| [**User & Group Management**](user-and-group-management.md) | [`sudo`](user-and-group-management.md#sudo) [`useradd`](user-and-group-management.md#useradd) [`whoami`](user-and-group-management.md#whoami) [`su`](user-and-group-management.md#su) [`passwd`](user-and-group-management.md#passwd) [`userdel`](user-and-group-management.md#userdel) [`groupadd`](user-and-group-management.md#groupadd) [`gpasswd`](user-and-group-management.md#gpasswd) [`groupdel`](user-and-group-management.md#groupdel) |
 
 # Linux Commands
 
@@ -70,6 +71,21 @@
 | [`dnf`](system.md#dnf) | Next generation package management for RHEL-based systems |
 | [`pacman`](system.md#pacman) | Package management for Arch Linux |
 | [`portage`](system.md#portage) | Package management for Gentoo Linux |
+
+### User & Group Management Commands
+[View detailed user management guide](user-and-group-management.md)
+
+| Command | Description |
+|---------|-------------|
+| [`sudo`](user-and-group-management.md#sudo) | Execute commands with superuser privileges |
+| [`useradd`](user-and-group-management.md#useradd) | Create a new user account |
+| [`whoami`](user-and-group-management.md#whoami) | Display current user name |
+| [`su`](user-and-group-management.md#su) | Switch to another user account |
+| [`passwd`](user-and-group-management.md#passwd) | Change user password |
+| [`userdel`](user-and-group-management.md#userdel) | Delete a user account |
+| [`groupadd`](user-and-group-management.md#groupadd) | Create a new group |
+| [`gpasswd`](user-and-group-management.md#gpasswd) | Administer groups |
+| [`groupdel`](user-and-group-management.md#groupdel) | Delete a group |
 
 
 
