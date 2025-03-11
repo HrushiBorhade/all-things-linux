@@ -1,14 +1,21 @@
 <div style="display: flex; align-items: center; gap: 20px;">
-    <img src="linux-mascot.gif" alt="Linux Mascot Falling" style="width: 20%; height: auto;">
+    <img src="linux-mascot.gif" alt="Linux Mascot Falling" style="width: 40%; height: auto;">
     <div style="flex: 1;">
-        <pre style="margin: 0; font-family: monospace; line-height: 1.2; font-size: 12px; background: none; border: none; padding: 0;">
-██╗      ██╗███╗   ██╗██╗   ██╗██╗  ██╗
-██║      ██║████╗  ██║██║   ██║╚██╗██╔╝
-██║      ██║██╔██╗ ██║██║   ██║ ╚███╔╝ 
-██║      ██║██║╚██╗██║██║   ██║ ██╔██╗ 
-███████╗ ██║██║ ╚████║╚██████╔╝██╔╝ ██╗
-╚══════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝</pre>
-        <p style="margin: 10px 0 0 0; font-size: 16px; color: #666;">ALL THINGS LINUX - A Comprehensive Guide</p>
+        <pre style="margin: 0; font-family: monospace; line-height: 1.2; font-size: 12px; background: transparent; border: none; padding: 0;">
+ █████╗ ██╗     ██╗         ████████╗██╗  ██╗██╗███╗   ██╗ ██████╗ ███████╗
+██╔══██╗██║     ██║         ╚══██╔══╝██║  ██║██║████╗  ██║██╔════╝ ██╔════╝
+███████║██║     ██║            ██║   ███████║██║██╔██╗ ██║██║  ███╗███████╗
+██╔══██║██║     ██║            ██║   ██╔══██║██║██║╚██╗██║██║   ██║╚════██║
+██║  ██║███████╗███████╗       ██║   ██║  ██║██║██║ ╚████║╚██████╔╝███████║
+╚═╝  ╚═╝╚══════╝╚══════╝       ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝
+
+██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗
+██║     ██║████╗  ██║██║   ██║╚██╗██╔╝
+██║     ██║██╔██╗ ██║██║   ██║ ╚███╔╝ 
+██║     ██║██║╚██╗██║██║   ██║ ██╔██╗ 
+███████╗██║██║ ╚████║╚██████╔╝██╔╝ ██╗
+╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝</pre>
+
     </div>
 </div>
 
