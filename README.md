@@ -11,6 +11,7 @@
 
 | Category | Commands |
 |----------|----------|
+| [**Basic Linux Commands**](basic-commands.md) | [`ls`](basic-commands.md#ls) [`cd`](basic-commands.md#cd) [`pwd`](basic-commands.md#pwd) [`mkdir`](basic-commands.md#mkdir) [`rm`](basic-commands.md#rm) [`rmdir`](basic-commands.md#rmdir) [`cat`](basic-commands.md#cat) [`zcat`](basic-commands.md#zcat) [`touch`](basic-commands.md#touch) [`head`](basic-commands.md#head) [`tail`](basic-commands.md#tail) [`less`](basic-commands.md#less) [`more`](basic-commands.md#more) [`cp`](basic-commands.md#cp) [`mv`](basic-commands.md#mv) [`wc`](basic-commands.md#wc) [`ln`](basic-commands.md#ln) [`cut`](basic-commands.md#cut) [`tee`](basic-commands.md#tee) [`sort`](basic-commands.md#sort) [`clear`](basic-commands.md#clear) [`diff`](basic-commands.md#diff) [`df`](basic-commands.md#df) [`du`](basic-commands.md#du) |
 | [**Networking Commands**](networking.md) | [`curl`](networking.md#curl) [`wget`](networking.md#wget) [`ssh`](networking.md#ssh) [`ping`](networking.md#ping) [`netstat`](networking.md#netstat) [`ifconfig`](networking.md#ifconfig) [`traceroute`](networking.md#traceroute) [`tracepath`](networking.md#tracepath) [`mtr`](networking.md#mtr) [`nslookup`](networking.md#nslookup) [`telnet`](networking.md#telnet) [`hostname`](networking.md#hostname) [`ip`](networking.md#ip) [`iwconfig`](networking.md#iwconfig) [`ss`](networking.md#ss) [`arp`](networking.md#arp) [`dig`](networking.md#dig) [`whois`](networking.md#whois) [`ifplugstatus`](networking.md#ifplugstatus) [`route`](networking.md#route) [`nmap`](networking.md#nmap) [`tcpdump`](networking.md#tcpdump) [`nc`](networking.md#nc) [`scp`](networking.md#scp) [`rsync`](networking.md#rsync) [`iptables`](networking.md#iptables) [`netcat`](networking.md#netcat) [`host`](networking.md#host) |
 | [**System Level Commands**](system.md) | [`uname`](system.md#uname) [`uptime`](system.md#uptime) [`date`](system.md#date) [`who`](system.md#who) [`whoami`](system.md#whoami) [`which`](system.md#which) [`id`](system.md#id) [`sudo`](system.md#sudo) [`shutdown`](system.md#shutdown) [`reboot`](system.md#reboot) [`apt`](system.md#apt) [`yum`](system.md#yum) [`dnf`](system.md#dnf) [`pacman`](system.md#pacman) [`portage`](system.md#portage) |
 | [**User & Group Management**](user-and-group-management.md) | [`sudo`](user-and-group-management.md#sudo) [`useradd`](user-and-group-management.md#useradd) [`whoami`](user-and-group-management.md#whoami) [`su`](user-and-group-management.md#su) [`passwd`](user-and-group-management.md#passwd) [`userdel`](user-and-group-management.md#userdel) [`groupadd`](user-and-group-management.md#groupadd) [`gpasswd`](user-and-group-management.md#gpasswd) [`groupdel`](user-and-group-management.md#groupdel) |
@@ -19,6 +20,36 @@
 | [**Pro Linux Commands**](pro-linux-commands.md) | [`awk`](pro-linux-commands.md#awk) [`sed`](pro-linux-commands.md#sed) [`grep`](pro-linux-commands.md#grep) |
 
 # Linux Commands
+
+### Basic Linux Commands
+[View detailed basic Linux commands guide](basic-commands.md)
+
+| Command | Description |
+|---------|-------------|
+| [`ls`](basic-commands.md#ls) | List directory contents |
+| [`cd`](basic-commands.md#cd) | Change directory |
+| [`pwd`](basic-commands.md#pwd) | Print working directory |
+| [`mkdir`](basic-commands.md#mkdir) | Make directories |
+| [`rm`](basic-commands.md#rm) | Remove files or directories |
+| [`rmdir`](basic-commands.md#rmdir) | Remove empty directories |
+| [`cat`](basic-commands.md#cat) | Concatenate and display files |
+| [`zcat`](basic-commands.md#zcat) | Display compressed files |
+| [`touch`](basic-commands.md#touch) | Create empty files or update timestamps |
+| [`head`](basic-commands.md#head) | Display first lines of files |
+| [`tail`](basic-commands.md#tail) | Display last lines of files |
+| [`less`](basic-commands.md#less) | View file contents page by page |
+| [`more`](basic-commands.md#more) | View file contents one screen at a time |
+| [`cp`](basic-commands.md#cp) | Copy files and directories |
+| [`mv`](basic-commands.md#mv) | Move/rename files and directories |
+| [`wc`](basic-commands.md#wc) | Print word, line, character, and byte counts |
+| [`ln`](basic-commands.md#ln) | Create hard and soft links |
+| [`cut`](basic-commands.md#cut) | Remove sections from lines of files |
+| [`tee`](basic-commands.md#tee) | Read from stdin and write to stdout and files |
+| [`sort`](basic-commands.md#sort) | Sort lines in text files |
+| [`clear`](basic-commands.md#clear) | Clear terminal screen |
+| [`diff`](basic-commands.md#diff) | Compare files line by line |
+| [`df`](basic-commands.md#df) | Report file system disk space usage |
+| [`du`](basic-commands.md#du) | Estimate file space usage |
 
 ### Networking Commands
 [View detailed networking commands guide](networking.md)
