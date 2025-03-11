@@ -1,5 +1,5 @@
 <div style="display: flex; flex-direction:column; align-items: start;">
-    <img src="linux-mascot.gif" alt="Linux Mascot Falling" style="width: 50%;">
+    <img src="linux-mascot.gif" alt="Linux Mascot Falling" style="width: 70%;">
     <pre style="width: 100%; margin: 0; font-family: monospace; line-height: 1.2; font-size: 14px; background: transparent; padding: 0; border: none;">
  █████╗ ██╗     ██╗         ████████╗██╗  ██╗██╗███╗   ██╗ ██████╗ ███████╗        ██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗
 ██╔══██╗██║     ██║         ╚══██╔══╝██║  ██║██║████╗  ██║██╔════╝ ██╔════╝        ██║     ██║████╗  ██║██║   ██║╚██╗██╔╝
@@ -12,6 +12,7 @@
 | Category | Commands |
 |----------|----------|
 | [**Networking Commands**](networking.md) | [`curl`](networking.md#curl) [`wget`](networking.md#wget) [`ssh`](networking.md#ssh) [`ping`](networking.md#ping) [`netstat`](networking.md#netstat) [`ifconfig`](networking.md#ifconfig) [`traceroute`](networking.md#traceroute) [`tracepath`](networking.md#tracepath) [`mtr`](networking.md#mtr) [`nslookup`](networking.md#nslookup) [`telnet`](networking.md#telnet) [`hostname`](networking.md#hostname) [`ip`](networking.md#ip) [`iwconfig`](networking.md#iwconfig) [`ss`](networking.md#ss) [`arp`](networking.md#arp) [`dig`](networking.md#dig) [`whois`](networking.md#whois) [`ifplugstatus`](networking.md#ifplugstatus) [`route`](networking.md#route) [`nmap`](networking.md#nmap) [`tcpdump`](networking.md#tcpdump) [`nc`](networking.md#nc) [`scp`](networking.md#scp) [`rsync`](networking.md#rsync) [`iptables`](networking.md#iptables) [`netcat`](networking.md#netcat) [`host`](networking.md#host) |
+| [**System Level Commands**](system.md) | [`uname`](system.md#uname) [`uptime`](system.md#uptime) [`date`](system.md#date) [`who`](system.md#who) [`whoami`](system.md#whoami) [`which`](system.md#which) [`id`](system.md#id) [`sudo`](system.md#sudo) [`shutdown`](system.md#shutdown) [`reboot`](system.md#reboot) [`apt`](system.md#apt) [`yum`](system.md#yum) [`dnf`](system.md#dnf) [`pacman`](system.md#pacman) [`portage`](system.md#portage) |
 
 # Linux Commands
 
@@ -48,6 +49,27 @@
 | [`iptables`](networking.md#iptables) | Configure IP packet filter rules |
 | [`netcat`](networking.md#netcat) | Read and write data across network connections |
 | [`host`](networking.md#host) | DNS lookup utility |
+
+### System Level Commands
+[View detailed system commands guide](system.md)
+
+| Command | Description |
+|---------|-------------|
+| [`uname`](system.md#uname) | Display system information including kernel version |
+| [`uptime`](system.md#uptime) | Show how long the system has been running |
+| [`date`](system.md#date) | Display or set system date and time |
+| [`who`](system.md#who) | Show who is logged on |
+| [`whoami`](system.md#whoami) | Print effective user ID |
+| [`which`](system.md#which) | Locate a command in system PATH |
+| [`id`](system.md#id) | Print user and group information |
+| [`sudo`](system.md#sudo) | Execute a command as another user (typically root) |
+| [`shutdown`](system.md#shutdown) | Bring the system down safely |
+| [`reboot`](system.md#reboot) | Restart the system |
+| [`apt`](system.md#apt) | Package management for Debian-based systems |
+| [`yum`](system.md#yum) | Package management for older RHEL-based systems |
+| [`dnf`](system.md#dnf) | Next generation package management for RHEL-based systems |
+| [`pacman`](system.md#pacman) | Package management for Arch Linux |
+| [`portage`](system.md#portage) | Package management for Gentoo Linux |
 
 
 
