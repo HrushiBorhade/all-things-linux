@@ -18,6 +18,7 @@
 | [**File Permissions**](file-permissions.md) | [`ls`](file-permissions.md#ls) [`chmod`](file-permissions.md#chmod) [`chown`](file-permissions.md#chown) [`chgrp`](file-permissions.md#chgrp) [`umask`](file-permissions.md#umask) |
 | [**Compression Commands**](compression.md) | [`zip`](compression.md#zip) [`gzip`](compression.md#gzip) [`gunzip`](compression.md#gunzip) [`tar`](compression.md#tar) [`untar`](compression.md#untar) |
 | [**Pro Linux Commands**](pro-linux-commands.md) | [`awk`](pro-linux-commands.md#awk) [`sed`](pro-linux-commands.md#sed) [`grep`](pro-linux-commands.md#grep) |
+| [**Process Management**](process-commands.md) | [`ps`](process-commands.md#ps) [`top`](process-commands.md#top) [`fuser`](process-commands.md#fuser) [`kill`](process-commands.md#kill) [`nohup`](process-commands.md#nohup) [`free`](process-commands.md#free) [`vmstat`](process-commands.md#vmstat) |
 
 # Linux Commands
 
@@ -151,6 +152,19 @@
 | [`awk`](pro-linux-commands.md#awk) | Pattern scanning and text processing language |
 | [`sed`](pro-linux-commands.md#sed) | Stream editor for filtering and transforming text |
 | [`grep`](pro-linux-commands.md#grep) | Search text patterns using regular expressions |
+
+### Process Management Commands
+[View detailed process management guide](process-commands.md)
+
+| Command | Description |
+|---------|-------------|
+| [`ps`](process-commands.md#ps) | Report process status |
+| [`top`](process-commands.md#top) | Display and update sorted process information |
+| [`fuser`](process-commands.md#fuser) | Identify processes using files or sockets |
+| [`kill`](process-commands.md#kill) | Terminate processes |
+| [`nohup`](process-commands.md#nohup) | Run a command immune to hangups |
+| [`free`](process-commands.md#free) | Display amount of free and used memory |
+| [`vmstat`](process-commands.md#vmstat) | Report virtual memory statistics |
 
 
 
